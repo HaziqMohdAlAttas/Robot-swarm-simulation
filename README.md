@@ -2,7 +2,7 @@
 A simple python simulation of a swarm of autonomous robots designed as a Boids-style swarm. The robots exhibit behaviours such as target seeking, obstacle avoiding as well as working together as a swarm, making sure they abide by the rules of separation, alignment and cohesion, as seen in nature in a Boids-style swarm.
 
 Explanation of Results:
-See excel spreadsheet for more info
+See excel spreadsheet for results
 
 The effect of separation weights on swarm performance was conducted. Here, swarm performance was categorized via the success rate, which is the percentage of robots that reached the target, but also the number of robot collisions with each other.
 The optimal swarm performance would be one that had a high success rate but also a low number of collisions

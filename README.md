@@ -9,6 +9,8 @@ In the project, 50 robots are to move towards a target. However, each of the rob
 As an extra addition I also decided that I would add a simple, large, rectangular shaped obstacle too. Each robot must also be pushed away from that obstacle if they get too close so they don't hit it and potentially crash.
 
 
+
+
 Experiment
 After finishing the project, I decided to run an experiment on it in order to fine tune the swarm into being more successful at both reaching the target, and reducing collisions with itself. To do this, the effect of separation weights on swarm performance was conducted. In my project each robot in the swarm must make sure they don't collide with each other. Separation allows for this to happen. In the program, each robot must move away from each other if they get too close. The separation weight is used to amplify that number, in order to reduce the number of collisions. However, I thought that if the separation weight was too high, this would affect the success rate of each robot in the swarm successfully reaching the target.
 
@@ -20,6 +22,8 @@ The experiment was conducted using 4 different separation weights (0.5,1.0,2.0,4
 Independent variable(what changes) - Separation Weight. We will use values of 0.5,1.0,2.0 and 4.0.
 Dependent variables(what we are measuring) - Success rate/percentage of robots that reach the target. Number of collisions.
 Control variables(what we keep the same) - Number of robots, number of timesteps, obstacle position and size, alignment and cohesion weight, target position, etc.
+
+
 
 
 Results
